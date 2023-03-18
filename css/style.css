@@ -1,3 +1,4 @@
+/* ჰედერის დასაწყისი */
 .flex_container {
     max-width: 1440px;
     width: 100%;
@@ -10,7 +11,6 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    
 }
 
 .head_ul {
@@ -32,6 +32,7 @@ header {
 .link_menu1 {
     color: #27187F;
 }
+
 .search_box {
     border: 2px solid #27187F;
     border-radius: 10px;
@@ -39,10 +40,62 @@ header {
     height: 55px;
     display: flex;
     align-items: center;
-    justify-content: end;
-    }
+    justify-content
+}
 
 .lupa {
     font-size: 40px;
     color: #758BFD;
+}
+
+/* ჰედერის დასასრული */
+
+/* სექციის დასაწყისი */
+
+section {
+    background-color: #DDEAF8;
+    display: flex;
+    height: 1051px;
+    align-items: center;
+
+}
+
+h1 {
+    width: 100%;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    color: #27187F;
+
+}
+
+.cards {
+    width: 90%;
+    height: 822px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.card {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 333px;
+    background-color: white;
+    display:grid;
+    justify-content: baseline;
+    align-content: baseline;
+}
+
+.card_img {
+    margin: 0 auto;
+    width: 80%%;
+    height: 188px;
+}
+
+.card_text {
+    width: 80%;
+
 }
