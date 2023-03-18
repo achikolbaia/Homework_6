@@ -40,7 +40,7 @@ header {
     height: 55px;
     display: flex;
     align-items: center;
-    justify-content
+    justify-content:end
 }
 
 .lupa {
@@ -64,6 +64,7 @@ h1 {
     width: 100%;
     font-family: 'Ubuntu';
     font-size: 32px;
+    font-style: bold;
     color: #27187F;
 
 }
@@ -74,28 +75,41 @@ h1 {
     margin:  0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: baseline;
+    justify-content: space-between;
     align-items: baseline;
 }
 
 .card {
     width: 30%;
-    margin: 0 auto;
     border-radius: 10px;
     height: 333px;
     background-color: white;
-    display:grid;
-    justify-content: baseline;
-    align-content: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 33px;
 }
 
 .card_img {
     margin: 0 auto;
-    width: 80%%;
+    width: 90%;
     height: 188px;
 }
 
 .card_text {
-    width: 80%;
+    width: 90%;
+    font-family: 'Ubuntu';
+    font-size: 20px;
 
+}
+
+/* სექციის დასასრული */
+
+/* ფუტერის დასაწყისი */
+footer {
+    background-color: #758BFD;
+    height: 504px;
+    display: flex;
+    justify-content: first baseline;
 }
